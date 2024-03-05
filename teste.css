@@ -1,0 +1,49 @@
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+}
+
+
+.page1 {
+    background-image: url(imagens/4ZW9.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.page2{
+ background-image: url(imagens/03.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.page3{
+    background-image: url(imagens/5CMg.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .page4{
+    background-image: url(imagens/fantasma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+   .page5{
+    background-image: url(imagens/ftm12.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
